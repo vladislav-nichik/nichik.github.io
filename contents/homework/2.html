@@ -9,14 +9,14 @@
         <title>Комп'ютерні системи та мережі</title>
     </head>
     <body>
-        <script src="../scripts/dropdown.js"></script>
-        <script src="../scripts/navholder.js"></script>
+        <script src="../../scripts/dropdown.js"></script>
+        <script src="../../scripts/navholder.js"></script>
         <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
         <nav class="navbar navbar-expand-lg navbar-light bg-light" id="nav-placeholder">
-            <a class="navbar-brand" href="../../index.html"><img class="hoverable mask flex-center" src="../../images/icons/logo.png" alt="logo" width=50px height=50px></a>
+            <a class="navbar-brand" href="../../index.html"><img class="rounded-circle hoverable mask flex-center" src="../../images/icons/logo.png" alt="logo" width=50px height=50px></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
@@ -28,7 +28,7 @@
                     <li class="nav-item">
                         <a class="nav-link" href="../recent.html">Останнi роботи</a>
                     </li>
-                    <li class="nav-item active dropdown">
+                    <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Всi роботи</a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                             <li class="dropdown-submenu">
@@ -66,35 +66,31 @@
                 -->
             </div>
         </nav>
-        <div class="row mb-2 d-flex justify-content-around" style="padding-top: 15px;">
-            <div class="col-md-5">
-                <div class="card flex-md-row mb-4 box-shadow h-md-250">
-                    <div class="card-body d-flex flex-column align-items-start">
-                        <strong class="d-inline-block mb-2 text-primary">Практична робота</strong>
-                        <h3 class="mb-0">
-                            <a class="text-dark">№1</a>
-                        </h3>
-                        <div class="mb-1 text-muted">06.02</div>
-                        <p class="card-text mb-auto">20 прикладiв IP-адрес класу A, B та C. Їх представлення в десятковiй та двiйковiй системах числення.</p>
-                        <a href="1.html" class="btn btn-primary" style="margin-top: 20px;">Перейти</a>
+        <section class="my-5">
+            <div class="container">
+                <div class="row content-right">
+                    <div class="col-md-8 mx-auto">
+                        <p><b>Мере́жевий комута́тор</b> (англ. network switch) або <b>світч</b> (від англ. switch — «перемикач») — пристрій, призначений для з'єднання декількох вузлів комп'ютерної мережі в межах одного сегмента.</p>
+                        <p><b>Маршрутиза́тор</b> (англ. router) — електронний пристрій, що використовується для поєднання двох або більше мереж і керує процесом маршрутизації, тобто на підставі інформації про топологію мережі та певних правил приймає рішення про пересилання пакетів мережевого рівня (рівень 3 моделі OSI) між різними сегментами мережі.</p>
+                        <hr>
+                        <p>Відмінності між комутатором і роутером полягають в спектрі завдань, які вони вирішують. Можна виділити основні особливості, що визначають, чим відрізняються комутатор від маршрутизатора:</p>
+                        <ol>
+                            <li>Роутер самостійно визначає IP-адреси, аналізує дані пакета, а світч працює тільки з МАС-адресами.</li>
+                            <li>Технічно роутер є більш складним пристроєм. Він має вбудовану пам'ять, що дозволяє називати його міні-комп'ютером. Для світчей характерний обмежений функціонал.</li>
+                            <li>Світчі працюють на канальному рівні моделі OSI, маршрутизатори - на мережевому рівні.</li>
+                            <li>Роутер підключається до інтернету, світч не підключається.</li>
+                            <li>Для роботи комутаторів використовуються тільки LAN-порти, для роутерів - LAN і WAN.</li>
+                            <li>Вартість роутерів в кілька разів вища в порівнянні з комутаторами в силу складності конструкції і розширеного функціоналу.</li>
+                        </ol>
+                        <hr>
+                        <ul>
+                            <li class="list-inline-item">Джерела:</li>
+                            <li><a href="https://uk.m.wikipedia.org/wiki/">uk.wikipedia.org/wiki</a></li>
+                            <li><a href="http://bezprovodoff.com/wi-fi/oborudovanie/marshrutizator-i-kommutator.html">bezprovodoff.com</a></li>
+                        <ul>
                     </div>
                 </div>
             </div>
-        </div>
-         <div class="row mb-2 d-flex justify-content-around" style="padding-top: 15px;">
-            <div class="col-md-5">
-                <div class="card flex-md-row mb-4 box-shadow h-md-250">
-                    <div class="card-body d-flex flex-column align-items-start">
-                        <strong class="d-inline-block mb-2 text-primary">Практична робота</strong>
-                        <h3 class="mb-0">
-                            <a class="text-dark">№2</a>
-                        </h3>
-                        <div class="mb-1 text-muted">26.02</div>
-                        <p class="card-text mb-auto">Що таке комутатор та маршрутизатор, їх відмінності.</p>
-                        <a href="2.html" class="btn btn-primary" style="margin-top: 20px;">Перейти</a>
-                    </div>
-                </div>
-            </div>
-        </div>
+        </section>
     </body>
 </html>

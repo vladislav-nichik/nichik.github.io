@@ -33,9 +33,31 @@ hr {
     transform: rotate(-90deg);
 }
 
+ol {
+    counter-reset: item;
+}
+
+ol li { 
+    display: block; 
+}
+
+ol li:before {
+    content: counter(item) ". ";
+    counter-increment: item;
+    color: #5bc0de;
+}
+
 @media (min-width: 750px) {
     .table{
         width: 60%;
         margin: auto;
+    }
+}
+
+@media (max-width: 750px) {
+    .card-columns {
+        @include media-breakpoint-only(lg) {
+            column-count: 1;
+        }
     }
 }
